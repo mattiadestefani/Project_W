@@ -46,7 +46,6 @@ body {
   }
 
 
-
   .whwh-searchbar-white {
     height: 30px;
     font-size: 20px;
@@ -61,11 +60,10 @@ body {
     top: 0;
     right: 0;
     background: none;
-    width: 90%;
+    width: 70%;
     border-bottom: 3px solid rgb(255, 255, 255);
     margin-top:5px;
   }
-
 
 
 .input-searchbar-submit {
@@ -86,3 +84,18 @@ body {
   cursor: pointer;
   transition: opacity .4s ease;
 }
+
+#container-analisi{
+  background-image: url(../img/slide3_B.png);
+  position:relative;
+
+}
+
+#questionario{
+  background: url(../img/slide1.png);
+  background-repeat: no-repeat;
+  background-position:absolute;
+
+
+}
+

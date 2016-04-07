@@ -19,24 +19,6 @@ body {
     width: 100%;
     height: 100%;
     font-family: Roboto-Light;
-    /*color: #5f5f5f;
-    /* IE10 */
-    /*background-image: -ms-linear-gradient(top center, rgb(137, 207, 255) 0%, rgb(150,168,177) 18%, rgb(191,203,206) 100%);
-
-    /* Mozilla Firefox */
-    /*background-image: -moz-linear-gradient(top, rgb(63, 177, 229) 0%, rgb(150,168,177) 10%, rgb(191,203,206) 100%);
-
-    /* Opera */
-    /*background-image: -o-linear-gradient(top, rgb(63, 177, 229) 0%, rgb(150,168,177) 18%, rgb(191,203,206) 100%);
-
-    /* Webkit (Safari/Chrome 10) */
-    /*background-image: -webkit-gradient(linear, right top, left bottom, color-stop(0, rgb(137, 207, 255)), color-stop(12, rgb(150,168,177)), color-stop(1, rgb(191,203,206)));
-
-    /* Webkit (Chrome 11+) */
-    /*background-image: -webkit-linear-gradient(top center, rgb(137, 207, 255) 0%, rgb(150,168,177) 18%, rgb(191,203,206) 100%);
-
-    /* Regola standard */
-    /*background-image: linear-gradient(to top center, rgb(137, 207, 255) 0%, rgb(150,168,177) 18%, rgb(191,203,206) 100%);*/
    
     background-image: url(../img/sfondo1pixel.png);
 
@@ -46,14 +28,6 @@ body {
 
 }
 
-/*background: rgb(242,246,248);
-background: -moz-linear-gradient(top, rgb(242,246,248) 0%, rgb(216,225,231) 50%, rgb(181,198,208) 51%, rgb(224,239,249) 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgb(242,246,248)), color-stop(50%, rgb(216,225,231)), color-stop(51%, rgb(181,198,208)), color-stop(100%, rgb(224,239,249)));
-background: -webkit-linear-gradient(top, rgb(242,246,248) 0%, rgb(216,225,231) 50%, rgb(181,198,208) 51%, rgb(224,239,249) 100%);
-background: -o-linear-gradient(top, rgb(242,246,248) 0%, rgb(216,225,231) 50%, rgb(181,198,208) 51%, rgb(224,239,249) 100%);
-background: -ms-linear-gradient(top, rgb(242,246,248) 0%, rgb(216,225,231) 50%, rgb(181,198,208) 51%, rgb(224,239,249) 100%);
-background: linear-gradient(to bottom, rgb(242,246,248) 0%, rgb(216,225,231) 50%, rgb(181,198,208) 51%, rgb(224,239,249) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9', GradientType=0 );*/
 
 html {
     width: 100%;
@@ -74,7 +48,16 @@ html {
     h2,
     h3,
     h4,
-    h5,
+    h5 {
+        margin: 0 0 35px;
+        font-size: 30px;
+        font-family: Roboto-Light;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: #2A2D21;
+
+    }
+
     h6 {
         margin: 0 0 35px;
         font-size: 24px;
@@ -99,7 +82,15 @@ html {
     h2,
     h3,
     h4,
-    h5,
+    h5 {
+        margin: 0 0 35px;
+        font-size: 32px;
+        font-family: Roboto-Light;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: #2A2D21;
+
+    }
     h6 {
         margin: 0 0 35px;
         font-size: 28px;
@@ -124,10 +115,18 @@ html {
     h2,
     h3,
     h4,
-    h5,
+    h5 {
+        margin: 0 0 35px;
+        font-size: 24px;
+        font-family: Roboto-Light;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: #2A2D21;
+
+    }
     h6 {
         margin: 0 0 35px;
-        font-size: 30px;
+        font-size: 20px;
         font-family: Roboto-Light;
         font-weight: 500;
         letter-spacing: 1px;
@@ -258,6 +257,15 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.intro > p {
+   
+    color:#2A2D21;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -463,6 +471,11 @@ a:focus {
     text-decoration: none;
     background-color:transparent;
 }
+.btnsearchblu, .btnsearchblu.focus, .btnsearchblu:focus, .btnsearchblu:hover {
+    color: rgb(63,177,229);
+    text-decoration: none;
+    background-color:transparent;
+}
 
 #btnDownArrow{
     color: rgb(63,177,229);
@@ -540,9 +553,5 @@ img::-moz-selection {
 
 .navbar .navbar-collapse {
     text-align: center;
-}
-.intro-background{
-    background: url("../img/bg_fade.png") no-repeat center scroll;
-
 }
 
