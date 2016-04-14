@@ -57,16 +57,16 @@
         <ul class="nav navbar-nav navbar-right">
                   <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
           <li>
-              <a class="page-scroll" href="#homePage">HOME</a>   <!-- stesso link del logo -->
+            <a class="page-scroll" href="#homePage">HOME</a>   <!-- stesso link del logo -->
           </li>
           <li>
-              <a class="page-scroll" href="#weRe">CHI SIAMO</a>
+            <a class="page-scroll" href="#weRe">CHI SIAMO</a>
           </li>
           <li>
-              <a class="page-scroll" href="#contact">CONTATTI</a>
+            <a class="page-scroll" href="#contact">CONTATTI</a>
           </li>
           <li>
-              <a class="page-scroll" href="#news">NEWS</a>
+            <a class="page-scroll" href="#news">NEWS</a>
           </li>
           <!-- bottone della lingua -->
       <!--<li class="dropdown">
@@ -86,241 +86,128 @@
      </div>
   </div><!-- /.container-fluid -->
 </nav>
-<!--Inizio parte del carousel-->
-<div id="myCarousel" class="carousel slide"> 
-      <!-- Indicators -->
-      <!-- ci inidica in quale indicatore siamo -->
-      <ol class="carousel-indicators text-center" >
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-      </ol>
 
-<div class="carousel-inner" >
- <div class="item active">
-    <div class="row" >
-    </div>
 <!--primo blocco dell'caorousel = presentazione whiriwhiri-->
   <section class="intro intro-background" style="padding-top:120px"> <!-- tenere in mente la gestione del padding per il responsive -->
     
-  <div class="container text-center">
+    <div class="container text-center center-block">
       <div class="row">
-          <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-              <img src="img/whirilogottimale.png" class="img-responsive center-block" width="355px" height="117px"> <!-- grandezza ottimale per l'omarel -->
-          </div>
+        <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+          <img src="img/whirilogottimale.png" class="img-responsive center-block" width="177px" height="58px"> <!-- grandezza ottimale per l'omarel -->
+        </div>
       </div>
+    </div>
+         
+    <div class="container text-center center-block">
       <div class="row">
         <div class="intro col-md-12 col-lg-12 col-sm-12 col-xs-12">
           <div id="first-text">
-          <h1>Scegli il tuo futuro</h1>
+            <h1>Scegli il tuo futuro</h1>
           </div>
-          <div style="margin-bottom:100px">
           <h3>La nostra piattaforma ti permetterà di scegliere<br/> l'indirizzo adatto a te </h3>
-          </div>
         </div>
+      </div>
     </div>
 
+   <div class="row container col-md-12 col-lg-12 col-sm-12 col-xs-12 center-block" >
+    <div class="input-group input-group-md input-group-sm input-group-lg col-lg-8 col-md-8 col-sm-8 col-xs-8 center-block"id="searchbar" >
+        <div class="right-inner-addon " >
+          <input type="text" class="whwh-searchbar-blue" placeholder="Search" name="srch-term" id="srch-term">
+          <a href="result.html"><i class="fa fa-search fa-2x" style="color:rgb(63,177,229);"></i></a>
+        </div> 
+    </div>
+   </div>
+
+  <div class="container text-center">
+   <div class="row col-md-12 col-lg-12 col-sm-12 col-xs-12 center-block">
+      <a href="#weRe" class="btn faa-parent page-scroll" id="btnDownArrow" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+        <i class="fa fa-chevron-down fa-3x"></i>
+      </a>
+    </div>
   </div>
+
 </section>
 
-</div>
-
-<div class="item">
 <!--secondo blocco dello slider = gestione dell'analisi -->
-<section class="intro intro-background" id="slider1" style="padding-top:100px"> 
+<section class="intro intro-background" id="weRe"  style="padding-top:120px">
     
   <div class="container text-center">
-       <div class="row">
-          <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12" id="container-analisi"> <!-- container-analisi contiene l'immagine di sfondo delle frecce -->
-            <img src="img/slide3.png" class="img-responsive center-block">
-        </div>
-      </div>      
-      <div class="row">
-        <div class="intro col-md-12 col-lg-12 col-sm-12 col-xs-12"  style="margin-bottom:40px;">
-          <h5>Analizza le migliori Università in Italia </h5>
-           <h6>Il meglio è a tua disposizione</h6>
-        </div>
-
+    <div class="row ">
+      <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 " id="container-labirinto">
+     <div class="row" style="padding-top:300px;">
+      <div class="intro col-md-12 col-lg-12 col-sm-12 col-xs-12">
+        <h5>Scegli il tuo corso di studi ideale. </h5>
+        <h6>La giusta direzione per affrontare il tuo futuro</h6>
+      </div>
+    </div>       
+      </div>
     </div>
   </div>
-</section>
-</div>
 
-<div class="item">
+  <div class="container text-center">
+   <div class="row col-md-12 col-lg-12 col-sm-12 col-xs-12 center-block">
+      <a href="#contact" class="btn faa-parent page-scroll" id="btnDownArrow" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+        <i class="fa fa-chevron-down fa-3x"></i>
+      </a>
+    </div>
+  </div>
+
+</section>
+
 <!--terzo punto del carousel = labirinto -->
-<section class="intro intro-background" id="slider1" style="padding-top:100px">
-    
-  <div class="container text-center" style="border-bottom: -60px;">
-       <div class="row ">
-          <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 ">
-            <img src="img/slide2.png" class="img-responsive center-block slide2" /> <!-- non riesco a gestire la sfumatura bianca -->
-        </div>
-      </div>
 
-      <div class="carousel-caption">
-        <<h5>Scegli il tuo corso di studi ideale. </h5>
-           <h6>La giusta direzione per affrontare il tuo futuro</h6>
-      </div>
-  </div>
-</section>
-</div>
-
-<div class="item">
-<!--quarto punto del carousel = opinioni -->
-<section class="intro intro-background" id="slider1" style="padding-top:100px"> <!--ingrandire l'immagine con i "fogli" -->
-    
+<section class="intro intro-background" id="contact"  style="padding-top:120px">   
   <div class="container text-center">
-       <div class="row">
-          <div class="col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2" id="questionario">
-            <img src="img/slide1_C.png" class="img-responsive center-block" >
-
-        </div>
-      </div>      
-      <div class="carousel-caption">
-        <h5>I risultati di migliaia di opinioni. </h5>
-        <h6>Il lavoro sporco lo abbiamo fatto noi.</h6>
+    <div class="row">
+      <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12" id="container-analisi"> <!-- container-analisi contiene l'immagine di sfondo delle frecce -->
+        <img src="img/slide3.png" class="img-responsive center-block">
       </div>
+    </div> 
 
+    <div class="row">
+      <div class="intro col-md-12 col-lg-12 col-sm-12 col-xs-12">
+        <h5>Analizza le migliori Università in Italia </h5>
+        <h6>Il meglio è a tua disposizione</h6>
+      </div>
     </div>
   </div>
-</section>
-</div>
 
-</div>
-</div>
-<!-- barra di ricerca più la freccia "in giù" che sta fuori dallo slider gestire manualmente il padding nella section-->
   <div class="container text-center">
-  <div class="input-group input-group-md input-group-sm input-group-lg col-lg-8 col-md-8 col-sm-8 col-xs-8 center-block"id="searchbar" >
-      <div class="right-inner-addon " >
-        <input type="text" class="whwh-searchbar-blue" placeholder="Search" name="srch-term" id="srch-term">
-        <i class="fa fa-search fa-2x" style="color:rgb(63,177,229);"></i>
-      </div> 
-
-      <div class="container-fluid" class="col-md-8 center-block"  style="margin-top: 20px;">
-        <a href="#weRe" class="btn faa-parent page-scroll" id="btnDownArrow" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
-          <i class="fa fa-chevron-down fa-3x"></i>
-        </a>
-      </div>
+    <div class="row col-md-12 col-lg-12 col-sm-12 col-xs-12 center-block">
+      <a href="#news" class="btn faa-parent page-scroll" id="btnDownArrow" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+        <i class="fa fa-chevron-down fa-3x"></i>
+      </a>
     </div>
   </div> 
 
+</section>
 
-   
-<!-- BLOCCO 2: LE CLASSIFICHE = piccolo spazio per le classifiche degli atenei,scuole e corsi -->
- <section id="weRe" style="padding-top: 120px;">
+<!--quarto punto del carousel = opinioni -->
+<section class="intro intro-background" id="news" style="padding-top:120px"> <!--ingrandire l'immagine con i "fogli" -->
     
+  <div class="container text-center">
     <div class="row">
-        <div class="intro col-md-12 col-lg-12 col-sm-12 col-xs-12"  style="margin-bottom:60px">
-          <h5>Le nostre classifiche</h5>
-        </div>
+      <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 " id="questionario">
+      <div class="row">
+      <div class="intro col-md-12 col-lg-12 col-sm-12 col-xs-12" style="padding-top:300px">
+        <h5>I risultati di migliaia di opinioni. </h5>
+        <h6>Il lavoro sporco lo abbiamo fatto noi.</h6>
+      </div>
+    </div>
+      </div>
     </div>
 
-
-  <div class="container text-center  ">
-      <div class="row col-md-12 col-lg-12 center-block">
-      <!-- classifiche atenei -->
-      <div class="container col-md-4 col-lg-4 center-block">
-        <div class="panel panel-info">
-        <div class="panel-heading">Top 5 Atenei</div>
-         
-           <ul class="list-group">
-            <li class="list-group-item"><p>Cras justo odio</p></li>
-            <li class="list-group-item"><p>Cras justo odio</p></li>
-            <li class="list-group-item"><p>Cras justo odio</p></li>
-            <li class="list-group-item"><p>Cras justo odio</p></li>
-            <li class="list-group-item"><p>Cras justo odio</p></li>
-          </ul>
-          </div>
-        
-      </div>
-      <!--classifiche scuole -->
-      <div class="container col-md-4 col-lg-4 center-block">
-        <div class="panel panel-info">
-        <div class="panel-heading">Top 5 Scuole</div>
-         
-           <ul class="list-group">
-            <li class="list-group-item"><p>Cras justo odio</p></li>
-            <li class="list-group-item"><p>Cras justo odio</p></li>
-            <li class="list-group-item"><p>Cras justo odio</p></li>
-            <li class="list-group-item"><p>Cras justo odio</p></li>
-            <li class="list-group-item"><p>Cras justo odio</p></li>
-          </ul>
-        
-        </div>
-      </div>
-      <!--classifiche corsi di studio-->
-      <div class="container col-md-4 col-lg-4 center-block">
-        <div class="panel panel-info">
-        <div class="panel-heading">Top 5 Corsi</div>
-          
-           <ul class="list-group">
-            <li class="list-group-item"><p>Cras justo odio</p></li>
-            <li class="list-group-item"><p>Cras justo odio</p></li>
-            <li class="list-group-item"><p>Cras justo odio</p></li>
-            <li class="list-group-item"><p>Cras justo odio</p></li>
-            <li class="list-group-item"><p>Cras justo odio</p></li>
-          </ul>
-  
-        </div>
-      </div>
-
-
-  </div>
-  </div>
-</section>
-
-<!-- BLOCCO 4: CONTATTI -->
- <section class="intro intro-background" id="contact" style="margin-top: 120px;">
     
-  <div class="container text-center">
-      <div class="row">
-          <div class="col-md-12">
-              <img src="img/whirilogottimale.png" class="center-block" style="width:25%;height:25%;">
-          </div>
-      </div>
-      <div class="row">
-        <div class="intro col-md-12 col-lg-12 col-sm-12 col-xs-12"  style="margin-top: 60px;">
-          <h1>CONTATTI: CERCA SALVO TANTO TI HA SICURO COME AMICO SU FACEBOOK </h1>
-        </div>
     </div>
-    <div class="input-group input-group-md input-group-sm input-group-lg col-lg-8 col-md-8 col-sm-8 col-xs-8 center-block"id="searchbar" >
-      <div class="right-inner-addon "  style="margin-top: 60px;">
-        <input type="text" class="whwh-searchbar-blue" placeholder="Search" name="srch-term" id="srch-term">
-        <i class="fa fa-search fa-2x" style="color:rgb(63,177,229);"></i>
-      </div> 
 
-      <div class="container-fluid" class="col-md-8 center-block"  style="margin-top: 120px;">
-        <a href="#news" class="btn faa-parent page-scroll" id="btnDownArrow" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
-          <i class="fa fa-chevron-down fa-3x"></i>
-        </a>
-      </div>
-    </div>
-  </div>
 </section>
 
-<!-- BLOCCO 5: NEWS -->
- <section class="intro intro-background" id="news" style="margin-top: 120px;">
-    
-  <div class="container text-center">
-      <div class="row">
-          <div class="col-md-12">
-              <img src="img/whirilogottimale.png" class="center-block" style="width:25%;height:25%;">
-          </div>
-      </div>
-      <div class="row">
-        <div class="intro col-md-12 col-lg-12 col-sm-12 col-xs-12"  style="margin-top: 60px;">
-          <h1>NEWS: <a href="https://play.spotify.com/user/deste_92/playlist/3a5IvyqAQvsnQT46OGkke3"> FUCK OFF ALL WORLD </a> </h1>
+
+    <footer style="background-color:rgb(63,177,229);">
+        <div class="container text-center">
+            <p>Copyright &copy; Your Website 2014</p>
         </div>
-    </div>
-    <div class="input-group input-group-md input-group-sm input-group-lg col-lg-8 col-md-8 col-sm-8 col-xs-8 center-block"id="searchbar" >
-      <div class="right-inner-addon "  style="margin-top: 60px;">
-        <input type="text" class="whwh-searchbar-blue" placeholder="Search" name="srch-term" id="srch-term">
-        <i class="fa fa-search fa-2x" style="color:rgb(63,177,229);"></i>
-      </div> 
-    </div>
-  </div>
-</section>
+    </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins), coloriamo il mondo -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
